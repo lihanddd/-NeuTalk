@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/bg.jpg</file>
+        <file>img/color.png</file>
+        <file>img/login.png</file>
+        <file>img/mail.jpg</file>
+        <file>img/neutalk.png</file>
+        <file>img/password.jpg</file>
+        <file>img/black.jpg</file>
+        <file>img/Customer.png</file>
+        <file>img/CustomerService.png</file>
+        <file>img/loading.gif</file>
+        <file>img/chatTitle.png</file>
+        <file>img/next.png</file>
+        <file>img/send.png</file>
+        <file>img/mainwindowTitle.png</file>
+        <file>img/addFriend.jpg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

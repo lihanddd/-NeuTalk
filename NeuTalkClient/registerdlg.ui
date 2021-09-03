@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterDlg</class>
+ <widget class="QDialog" name="RegisterDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/img/bg.jpg);</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_id_enter">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#lineEdit_id_enter{
+	color: rgb(255, 255, 255);
+	border-image: url(:/img/img/black.jpg);
+	border-radius:4px}</string>
+   </property>
+   <property name="placeholderText">
+    <string>   Enter your email  address</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_send_verification_code">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/img/send.png);color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_button">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>580</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#register_button{
+	border-image: url(:/img/img/next.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="register_status">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>20</y>
+     <width>166</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="Title">
+      <property name="styleSheet">
+       <string notr="true">#Title{
+	border-image: url(:/img/img/neutalk.png);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_verification_enter">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/img/black.jpg);
+color: rgb(255, 255, 255);
+border-radius:4px</string>
+   </property>
+   <property name="placeholderText">
+    <string>   Enter the verification code</string>
+   </property>
+  </widget>
+  <zorder>lineEdit_id_enter</zorder>
+  <zorder>register_button</zorder>
+  <zorder>register_status</zorder>
+  <zorder>pushButton_send_verification_code</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>lineEdit_verification_enter</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
