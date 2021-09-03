@@ -25,3 +25,10 @@
 
 
 并且请手动在clientsocket.cpp的void ClientSocket::ConnectToServer()函数中将ip改为服务端ip地址
+
+
+下面是一些软件截图
+
+
+##登录界面
+![Image-text](https://github.com/lihanddd/img/blob/main/1.png)
