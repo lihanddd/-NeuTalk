@@ -1,8 +1,8 @@
 # -NeuTalk
-##大二暑期小学期实践项目 聊天软件 NeuTalk
+## 大二暑期小学期实践项目 聊天软件 NeuTalk
 
 
-##开发环境：Ubuntu20.04.2 LTS、Qt 5.12.11
+## 开发环境：Ubuntu20.04.2 LTS、Qt 5.12.11
 
 
 开发时长一共十天，ui是其他同学做的，代码部分我负责
@@ -11,7 +11,7 @@
 由于本人之前无丝毫软件开发经验 所以底层代码跟屎一样 挂在github上图一个初作纪念意义
 
 
-##软件介绍
+## 软件介绍
 
 
 使用请先在linux系统上安装相应版本的QT
@@ -30,15 +30,15 @@
 并且请手动在clientsocket.cpp的void ClientSocket::ConnectToServer()函数中将ip改为服务端ip地址
 
 
-##下面是一些软件截图
+## 下面是一些软件截图
 
 
-###登录界面
+### 登录界面
 ![Image-text](https://github.com/lihanddd/img/blob/main/1.png)
-###注册页面
+### 注册页面
 ![Image-text](https://github.com/lihanddd/img/blob/main/2.png)
-###好友页面
+### 好友页面
 ![Image-text](https://github.com/lihanddd/img/blob/main/3.png)
-###聊天页面
+### 聊天页面
 ![Image-text](https://github.com/lihanddd/img/blob/main/4.png)
 ![Image-text](https://github.com/lihanddd/img/blob/main/5.png)
